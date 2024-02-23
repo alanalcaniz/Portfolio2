@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(60deg, #0f0f0f, #1b1b1b);
+  background: linear-gradient(60deg, #0a0a0a, #111111);
   color: #f1f1f1;
 }
 
@@ -57,7 +57,7 @@ a:visited{
 }
 
 .contenedor-sobre-mi{
-  width: 750px;
+  width: 1000px;
   text-align: left;
   margin: 15px auto 0 auto;
   font-family: 'Inter', sans-serif;
@@ -70,6 +70,9 @@ a:visited{
 
 .contenedor-sobre-mi-texto{
   padding-top: 15px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
 }
 
 .contenedor-sobre-mi-imagen{
@@ -95,18 +98,24 @@ a:visited{
  grid-template-columns: 1fr 1fr;
  grid-template-rows: 300px 300px;
  gap: 30px;
- margin: 50px auto;
+ margin: 30px auto;
+ padding: 15px;
 }
 
 .tecnologias{
   background-color: #000000;
+  border: 1px solid #222;
   border-radius: 30px;
   display: flex;
   flex-direction: column;
+  padding: 15px;
 }
 
 .titulo-tecnologias{
 height: 50px;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .imagen-tecnologias{
@@ -115,13 +124,14 @@ height: 250px;
 
 .imagen-tecnologias img{
   width: 70px;
-  margin: 30px;
+  margin: 20px;
 }
 
 .contenedor-redes{
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 0 20px 0;
 }
 
 .contenedor-redes img{
@@ -131,7 +141,6 @@ height: 250px;
 .redes{
   width: 70px;
   height: 70px;
-  border: 1px solid #f1f1f1;
   border-radius: 30px;
   margin: 0 10px;
   padding: 5px;
@@ -139,12 +148,13 @@ height: 250px;
   transition: .4s;
   align-items: center;
   justify-content: center;
+  filter: drop-shadow(0 0 25px #ffffff)
 }
 
 .redes:hover{
-  background: #f1f1f11a;
   width: 160px;
   transition-timing-function: cubic-bezier(.19,1.23,1,.91);
+  border: .7px solid #ffffff98;
 }
 
 .redes p{
