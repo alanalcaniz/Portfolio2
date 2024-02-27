@@ -179,6 +179,14 @@
     display: flex;
     flex-direction: column;
     padding: 15px;
+    transition: transform .4s, box-shadow .4s;
+}
+
+.tecnologias:hover{
+    background-color: #000000;
+    border: 1px solid #2c2c2c;
+    box-shadow: 0px 0px 20px 5px #ffffff25;
+    transform: scale(1.005);
 }
    
 .titulo-tecnologias{
