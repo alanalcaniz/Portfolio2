@@ -1,11 +1,11 @@
 :root{
-  --yellow: #e9b31e;
-  --darkyellow: #b99122;
-  --yellowop: #e9b31e5e;
+  --orange: #ec7100;
+  --darkorange: #ca6200;
+  --orangeop: #ec71005e;
 }
 
 body {
-  background: linear-gradient(60deg, #000000, #0c0c0c);
+  background: radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 1) 0%, #0c0c0c 100%);
 }
 
 h1 {
@@ -20,7 +20,7 @@ h1 {
 h3{
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
-  color: var(--yellow);
+  color: var(--orange);
   font-size: 25px;
   margin-top: 7px;
 }
@@ -28,6 +28,10 @@ h3{
 p{
   line-height: 1.5;
   color: #f1f1f1;
+}
+
+span{
+  color: var(--orange);
 }
 
 a{
@@ -82,7 +86,8 @@ a:visited{
   padding-top: 15px;
   display: flex;
   justify-content: right;
-  align-items: center;
+  text-align: left;
+  flex-direction: column;
 }
 
 .contenedor-sobre-mi-imagen{
