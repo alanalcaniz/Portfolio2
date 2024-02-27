@@ -4,7 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: background-color .5s, box-shadow .3s;
+    transition: box-shadow .3s ease, background-color .5s ease;
 }
 
 .contenedor-imagen-tecnologias-html img{
@@ -174,18 +174,21 @@
    
 .tecnologias{
     background-color: #000000;
-    border: 1px solid #222;
+    /* border: 1px solid #222; */
+    border: 1px solid var(--yellow);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
     padding: 15px;
-    transition: transform .4s, box-shadow .4s;
+    transition: transform .4s, box-shadow .4s, border .3s;
 }
 
 .tecnologias:hover{
     background-color: #000000;
-    border: 1px solid #2c2c2c;
-    box-shadow: 0px 0px 20px 5px #ffffff25;
+    /* border: 1px solid #555555; */
+    border: 1px solid var(--darkyellow);
+    /* box-shadow: 0px 0px 20px 5px #ffffff25; */
+    box-shadow: 0px 0px 20px 5px var(--yellowop);
     transform: scale(1.005);
 }
    
@@ -236,7 +239,7 @@
     padding: 5px 0;
     position: absolute;
     z-index: 1;
-    bottom: 110%;
+    bottom: 95%;
     left: 50%;
     margin-left: -60px;
     opacity: 0;
