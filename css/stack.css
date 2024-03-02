@@ -1,9 +1,12 @@
-.contenedor-imagen-tecnologias-html{
-    box-shadow: 0 0 25px rgba(211, 116, 8, 0.25); 
-    background-color: rgba(211, 116, 8, 0.1);
+.contenedor-imagen-tecnologias{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.contenedor-imagen-tecnologias-html{
+    box-shadow: 0 0 25px rgba(211, 116, 8, 0.25); 
+    background-color: rgba(211, 116, 8, 0.1);
     transition: box-shadow .3s ease, background-color .5s ease;
 }
 
@@ -19,9 +22,6 @@
 .contenedor-imagen-tecnologias-css{
     box-shadow: 0 0 25px rgba(8, 130, 211, 0.25); 
     background-color: rgba(8, 130, 211, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -37,9 +37,6 @@
 .contenedor-imagen-tecnologias-github{
     box-shadow: 0 0 25px rgba(255, 255, 255, 0.25); 
     background-color: rgba(255, 255, 255, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -55,9 +52,6 @@
 .contenedor-imagen-tecnologias-git{
     box-shadow: 0 0 25px rgba(211, 89, 8, 0.25); 
     background-color: rgba(211, 89, 8, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -73,9 +67,6 @@
 .contenedor-imagen-tecnologias-photoshop{
     box-shadow: 0 0 25px rgba(0, 30, 54, 0.25); 
     background-color: rgba(0, 30, 54, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -91,9 +82,6 @@
 .contenedor-imagen-tecnologias-premiere{
     box-shadow: 0 0 25px rgba(0, 0, 91, 0.25); 
     background-color: rgba(0, 0, 91, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -109,9 +97,6 @@
 .contenedor-imagen-tecnologias-vscode{
     box-shadow: 0 0 25px rgba(8, 130, 211, 0.25); 
     background-color: rgba(8, 130, 211, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -127,9 +112,6 @@
 .contenedor-imagen-tecnologias-js{
     box-shadow: 0 0 25px rgba(240, 219, 79, 0.25); 
     background-color: rgba(240, 219, 79, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -145,9 +127,6 @@
 .contenedor-imagen-tecnologias-davinci{
     box-shadow: 0 0 25px rgba(129, 129, 129, 0.25); 
     background-color: rgba(129, 129, 129, 0.1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
     transition: background-color .5s, box-shadow .3s;
 }
 
@@ -160,6 +139,35 @@
     background-color: rgba(129, 129, 129, 0.3);
 }
 
+.contenedor-imagen-tecnologias-figma{
+    box-shadow: 0 0 25px rgba(129, 129, 129, 0.25); 
+    background-color: rgba(129, 129, 129, 0.1);
+    transition: background-color .5s, box-shadow .3s;
+}
+
+.contenedor-imagen-tecnologias-figma img{
+    filter: drop-shadow(0 0 20px #727272e0);
+}
+
+.contenedor-imagen-tecnologias-figma:hover{
+    box-shadow: 0 0 25px rgba(129, 129, 129, 0.65); 
+    background-color: rgba(129, 129, 129, 0.3);
+}
+
+.contenedor-imagen-tecnologias-linux{
+    box-shadow: 0 0 25px rgba(129, 129, 129, 0.25); 
+    background-color: rgba(129, 129, 129, 0.1);
+    transition: background-color .5s, box-shadow .3s;
+}
+
+.contenedor-imagen-tecnologias-linux img{
+    filter: drop-shadow(0 0 20px #727272e0);
+}
+
+.contenedor-imagen-tecnologias-linux:hover{
+    box-shadow: 0 0 25px rgba(129, 129, 129, 0.65); 
+    background-color: rgba(129, 129, 129, 0.3);
+}
 
 .contenedor-tecnologias{
     min-width: 300px;
@@ -284,6 +292,11 @@
 }
 
 .tooltip-text-davinci{
+    border: 1px solid #727272e0;
+    width: 170px;
+}
+
+.tooltip-text-figma{
     border: 1px solid #727272e0;
     width: 170px;
 }
