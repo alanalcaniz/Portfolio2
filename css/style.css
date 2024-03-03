@@ -1,7 +1,7 @@
 :root{
-  --orange: #ec7100;
-  --darkorange: #ca6200;
-  --orangeop: #ec71005e;
+  --color: #ec8e00;
+  --darkcolor: #e48900;
+  --colorop: #ff990042;
 }
 
 body {
@@ -20,7 +20,7 @@ h1 {
 h3{
   font-family: 'DM Sans', sans-serif;
   font-weight: 300;
-  color: var(--orange);
+  color: var(--color);
   font-size: 25px;
   margin-top: 7px;
 }
@@ -31,7 +31,7 @@ p{
 }
 
 span{
-  color: var(--orange);
+  color: var(--color);
 }
 
 a{

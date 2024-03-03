@@ -183,7 +183,7 @@
 .tecnologias{
     background-color: #000000;
     /* border: 1px solid #222; */
-    border: 1px solid var(--orange);
+    border: 1px solid var(--color);
     border-radius: 30px;
     display: flex;
     flex-direction: column;
@@ -194,9 +194,9 @@
 .tecnologias:hover{
     background-color: #000000;
     /* border: 1px solid #555555; */
-    border: 1px solid var(--darkorange);
+    border: 1px solid var(--darkcolor);
     /* box-shadow: 0px 0px 20px 5px #ffffff25; */
-    box-shadow: 0px 0px 20px 5px var(--orangeop);
+    box-shadow: 0px 0px 20px 5px var(--colorop);
     transform: scale(1.005);
 }
    
